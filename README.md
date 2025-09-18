@@ -34,7 +34,7 @@ accuknox-dashboard-state-v1
 src/
   data/widgets.json       # Initial categories & widget library
   store/dashboardStore.js # Context + Reducer store with persistence
-  components/             # UI components (Dashboard, CategorySection, WidgetCard, Modals)
+  components/             # UI components (Dashboard, CategorySection, WidgetCard, RightDrawers, GlobalAddWidgetDrawer)
 
 🛠 Scripts
 
