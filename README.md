@@ -5,7 +5,7 @@ A React-based dashboard assignment with dynamic categories and widgets.
 # Features
 
 Dynamic categories and widgets driven by src/data/widgets.json.
-Add new widgets with name and text (optionally charts).
+Add new widgets with name and text (optionally i added charts from recharts).
 Remove widgets via cross icon.
 Manage widgets per category with searchable list + checkboxes.
 All changes persist to Local Storage.
