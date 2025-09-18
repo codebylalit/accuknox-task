@@ -1,0 +1,38 @@
+{
+  "categories": [
+    {
+      "id": "cspm",
+      "title": "CSPM Executive Dashboard",
+      "widgets": [
+        { "id": "cloud-accounts", "name": "Cloud Accounts (Pie)", "text": "2 Total • Connected(2) • Not Connected(2)", "type": "pie" },
+        { "id": "risk-assessment", "name": "Cloud Account Risk Assessment (Bar)", "text": "9659 Total • Failed/Warning/Passed", "type": "bar" }
+      ]
+    },
+    {
+      "id": "cwpp",
+      "title": "CWPP Dashboard",
+      "widgets": [
+        { "id": "ns-alerts", "name": "Top 5 Namespace Specific Alerts (Bar)", "text": "No Graph data available", "type": "bar" },
+        { "id": "workload-alerts", "name": "Workload Alerts (Line)", "text": "No Graph data available", "type": "line" }
+      ]
+    },
+    {
+      "id": "registry",
+      "title": "Registry Scan",
+      "widgets": [
+        { "id": "image-risk", "name": "Image Risk Assessment (Bar)", "text": "1470 Total Vulnerabilities", "type": "bar" },
+        { "id": "image-security", "name": "Image Security Issues (Pie)", "text": "2 Total Images", "type": "pie" }
+      ]
+    }
+  ],
+  "library": [
+    { "id": "cloud-accounts", "name": "Cloud Accounts (Pie)", "text": "2 Total • Connected(2) • Not Connected(2)", "type": "pie" },
+    { "id": "risk-assessment", "name": "Cloud Account Risk Assessment (Bar)", "text": "9659 Total • Failed/Warning/Passed", "type": "bar" },
+    { "id": "ns-alerts", "name": "Top 5 Namespace Specific Alerts (Bar)", "text": "No Graph data available", "type": "bar" },
+    { "id": "workload-alerts", "name": "Workload Alerts (Line)", "text": "No Graph data available", "type": "line" },
+    { "id": "image-risk", "name": "Image Risk Assessment (Bar)", "text": "1470 Total Vulnerabilities", "type": "bar" },
+    { "id": "image-security", "name": "Image Security Issues (Pie)", "text": "2 Total Images", "type": "pie" }
+  ]
+}
+
+
