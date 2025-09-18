@@ -52,7 +52,7 @@ export default function GlobalAddWidgetDrawer({ open, onClose }) {
         {/* Search bar */}
         <div className="relative mb-4">
           <input
-            className="w-full border border-slate-300 rounded-lg pl-9 pr-3 py-2 text-sm focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-colors"
+            className="w-full border border-slate-300 rounded-lg pl-9 pr-1 py-2 text-sm outline-none transition-colors"
             placeholder="Search widgets..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
@@ -70,7 +70,7 @@ export default function GlobalAddWidgetDrawer({ open, onClose }) {
                 type="checkbox"
                 checked={checked.has(w.id)}
                 onChange={() => toggleWidget(w.id)}
-                className="rounded border-slate-300 text-indigo-600 focus:ring-indigo-500"
+                className="rounded border-slate-300 text-indigo-600 outline-none"
               />
               <span className="flex-1">
                 {w.name}

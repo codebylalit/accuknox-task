@@ -92,7 +92,7 @@ function AddWidgetModal({ categoryId, onClose }) {
           <label className="flex flex-col gap-1 text-sm">
             Widget name
             <input
-              className="border border-slate-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-colors"
+              className="border border-slate-300 rounded-lg px-3 py-2 outline-none transition-colors"
               value={name}
               onChange={(e) => setName(e.target.value)}
               required
@@ -122,7 +122,7 @@ function AddWidgetModal({ categoryId, onClose }) {
           <label className="flex flex-col gap-1 text-sm">
             Widget text
             <textarea
-              className="border border-slate-300 rounded-lg px-3 py-2 min-h-24 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-colors resize-none"
+              className="border border-slate-300 rounded-lg px-3 py-2 min-h-24 outline-none transition-colors resize-none"
               value={text}
               onChange={(e) => setText(e.target.value)}
             />
